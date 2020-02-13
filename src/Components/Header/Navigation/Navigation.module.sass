@@ -1,0 +1,28 @@
+@import '../../../Sass/variable'
+
+.Navigation
+
+  .list
+    list-style: none
+    display: flex
+    margin: 0
+
+    &__item
+      font-family: Gilroy
+      font-weight: 800
+      font-size: 12px
+      line-height: 12px
+      text-transform: uppercase
+      margin: 0 28px      
+
+      &__link
+        display: inline-block
+        padding: 0 7px 7px
+        box-sizing: border-box
+        border-bottom: 4px solid transparent
+        color: $colorTextBlack
+        text-decoration: none
+        transition: border-bottom .3s
+
+        &:hover
+          border-bottom: 4px solid #D88F5E
